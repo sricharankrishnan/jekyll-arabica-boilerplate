@@ -1,0 +1,10 @@
+@import "modules/_variables";
+
+.sampleFooterBar {
+  background: $black;
+  padding: 15px;
+  p {
+    color: $white;
+    margin: 0;
+  }
+}
