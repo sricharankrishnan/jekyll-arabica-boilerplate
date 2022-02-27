@@ -1,13 +1,15 @@
-@import "modules/_variables";
+@import "common-imports/variables.scss";
 
 .sampleNavBar {
   background: $black;
-  padding: 15px;
+  padding: 20px;
   font-weight: 600;
   color: #ddd;
   font-size: 1.2rem;
+  font-family: monospace;
   img {
-    width: 30px;
+    width: 20px;
     display: inline-block;
+    margin-right: 7px;
   }
 }

@@ -1,5 +1,6 @@
-@import "modules/_mixins";
-$appFont: 'Noto Sans KR', sans-serif;
+@import "common-imports/mixins.scss";
+
+$appFont: 'Source Serif Pro', serif;
 
 $black: #000000;
 $white: #ffffff;

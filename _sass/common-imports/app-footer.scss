@@ -1,10 +1,11 @@
-@import "modules/_variables";
+@import "common-imports/variables.scss";
 
 .sampleFooterBar {
   background: $black;
-  padding: 15px;
+  padding: 20px;
   p {
     color: $white;
     margin: 0;
+    font-family: monospace;
   }
 }
