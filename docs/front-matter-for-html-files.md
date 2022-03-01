@@ -2,7 +2,7 @@
 Front matter in jekyll is a piece of code that is located on the top section of a html document. Two sets of hyphens (3 nos in each set) located on top of a html document would contain YAML code is how front matter looks like in jekyll. The arabica boilerplate initializes each page with a predefined set of front matter that affects the meta details of every page layout. 
 
 Below is a sample snippet, following which there is a description on some of the portions of the boilerplate that these affect:
-```
+```yaml
 ---
 layout: default
 title: Jekyll Arabica Boilerplate | Free Github Download
