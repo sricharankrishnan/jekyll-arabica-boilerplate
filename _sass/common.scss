@@ -11,10 +11,12 @@
 @import "vendor-components/bootstrap/stylesheets/_bootstrap"; 
 
 body {
-  font-family: $appFont;
+  font-family: $bodyFont;
+  font-size: $baseFontSize;
 }
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
+  font-family: $headingFont;
 }
 h1 {
   font-size: $h1Size;

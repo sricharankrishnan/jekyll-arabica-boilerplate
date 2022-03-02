@@ -2,10 +2,15 @@
 
 .sampleFooterBar {
   background: $black;
-  padding: 20px;
+  padding: 19px 20px;
   p {
     color: $white;
     margin: 0;
-    font-family: monospace;
+    line-height: 20px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .sampleFooterBar {
+    padding: 20px;
   }
 }

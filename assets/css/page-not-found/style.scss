@@ -7,8 +7,7 @@
 
 .pageNotFound {
   .jumbotronSection {
-    background: url("/assets/images/jumbotron-bg.jpg") no-repeat center center;
-    background-size: cover;
+    background: $black;
     height: calc(100vh - 60px - 80px);
     .posContainer {
       position: absolute;
@@ -19,6 +18,10 @@
       width: 100%;
       padding: 15px;
       z-index: 10;
+      img {
+        width: 50px;
+        margin-bottom: 10px;
+      }
       h1, p {
         color: $white;
       }
@@ -28,7 +31,6 @@
       }
       p {
         margin-bottom: 0;
-        font-family: monospace;
       }
     }
   }
