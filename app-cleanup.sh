@@ -2,7 +2,7 @@
 
 # remove git remote origin details
 echo "Removing Boilerplate Git Remote Origin..."
-git remote remote origin
+git remote remove origin
 echo ""
 sleep 1
 
