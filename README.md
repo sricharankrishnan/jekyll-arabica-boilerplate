@@ -11,6 +11,7 @@ A really simple project that serves as a boiler plate for developers building fr
 + [Sass](https://sass-lang.com/)
 + [Jquery](https://jquery.com/)
 + [Grunt.js - The Javascript Task Runner](https://gruntjs.com/)
++ Integrated with [Snyk.io](https://snyk.io/)
 
 ### Getting Started
 + To use this boilerplate, you will need to have some working knowledge of jekyll or any other similar static site generator. For those of you who are first timers with jekyll, I would recommend that you visit their [website](https://jekyllrb.com/). 
