@@ -59,10 +59,16 @@ layout: compress
     <!-- [js file timestamp] -->
 
     <!-- [javascript files] -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
-    <script src="/assets/js/vendor-components/bootstrap/bootstrap.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
-    <script src="/assets/js/common.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
-    <script src="/assets/js/{{ page.jsfile }}.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+    {% assign mode = "development" %}
+    {% if mode == "development" and page.jsfile != "" %}
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/vendor-components/bootstrap/bootstrap.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/common.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/{{ page.jsfile }}.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+    {% endif %}
+    {% if mode == "production" and page.jsfile != "" %}
+      <script src="/assets/js/{{ page.jsfile}}.min.js?q={{ serveFileVer }}" type="text/javascript"></script>
+    {% endif %}
     <!-- [javascript files] -->
   </body>
 </html>
