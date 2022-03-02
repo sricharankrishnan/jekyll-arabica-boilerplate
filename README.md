@@ -1,5 +1,5 @@
 # Jekyll Arabica Boilerplate
-![Landing Page Shot](https://raw.githubusercontent.com/sricharankrishnan/jekyll-arabica-boilerplate/master/assets/images/landing-page-shot.gif?token=GHSAT0AAAAAABSCAWLYHIYHZ5CK27Q4HMACYQ7NOUQ)
+![Landing Page Shot](https://github.com/sricharankrishnan/jekyll-arabica-boilerplate/blob/master/assets/images/landing-page-shot.gif?raw=true)
 
 ### About
 A really simple project that serves as a boiler plate for developers building front end websites with Jekyll. Most of the conventions in this boilerplate originate from regular jekyll based terminologies in terms of folder names. However, few simple modifications have been done in order to standardize website building with jekyll in an opiniated but simple manner.
