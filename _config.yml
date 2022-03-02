@@ -29,3 +29,16 @@ permalink: /:categories/:title/
 
 sass:
   style: compressed
+
+# Default Front Matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: "Jekyll Arabica Boilerplate | Free Github Download"
+      metaDescription: "A really simple project that serves as a boilerplate for developers building front end websites with Jekyll."
+      metaKeywords: "jekyll, jekyll boilerplate, jekyll boilerplate template, jekyll development environment, jekyll arabica boilerplate, jekyll lava, jekyll website builder, jekyll website examples, jekyll project, jekyll environment how to"
+
