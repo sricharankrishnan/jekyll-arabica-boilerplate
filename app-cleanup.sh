@@ -19,6 +19,12 @@ npm install
 echo ""
 sleep 1
 
+# installing gem dependencies
+echo "Installing required gems..."
+bundle install
+echo ""
+sleep 1
+
 # ready for use now
 echo "[Jekyll Arabica Boilerplate]: Ready for Use!"
 rm -v ./app-cleanup.sh

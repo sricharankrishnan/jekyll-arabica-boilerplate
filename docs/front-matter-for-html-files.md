@@ -24,4 +24,19 @@ jsfile: "home/index"
 + ```bodyId``` affects the id string value of ```<body></body>``` in the ```_layouts/default.html``` file
 + ```jsfile``` refers to the source of the javascript file for a particular page. In this example, the value ```"home/index"``` refers to a javascript file located in ```assets/js/home/index.js``` in the boilerplate
 
+In order to ensure convenient use of Front Matter, the boillerplate has also placed some default front matter in the ```_config.yml``` file that is located in the root of the application. You can make changes to these as per your project requirements. In order to understand how default front matter works, I would recommend that you checkout [this tutorial](https://www.mikedane.com/static-site-generators/jekyll/front-matter-defaults/) and [this documentation](https://jekyllrb.com/docs/configuration/front-matter-defaults/). Below is the default front matter from the ```_config.yml``` file
+```yaml
+# Default Front Matter
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+      title: "Jekyll Arabica Boilerplate | Free Github Download"
+      metaDescription: "A really simple project that serves as a boilerplate for developers building front end websites with Jekyll."
+      metaKeywords: "jekyll, jekyll boilerplate, jekyll boilerplate template, jekyll development environment, jekyll arabica boilerplate, jekyll lava, jekyll website builder, jekyll website examples, jekyll project, jekyll environment how to"
+```
+
 You may choose to add or remove YAML keys from this front matter section as per your project requirements. It is <b>recommended</b> that you checkout the ```_includes/app-meta/index.html``` and the ```_layouts/default.html``` files to get better clarity on this section.
