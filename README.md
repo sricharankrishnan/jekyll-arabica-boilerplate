@@ -2,7 +2,7 @@
 ![Landing Page Shot](https://github.com/sricharankrishnan/jekyll-arabica-boilerplate/blob/master/assets/images/landing-page-shot.gif?raw=true)
 
 ### About
-A really simple project that serves as a boiler plate for developers building front end websites with Jekyll. Most of the conventions in this boilerplate originate from regular jekyll based terminologies in terms of folder names. However, few simple modifications have been done in order to standardize website building with jekyll in an opiniated but simple manner.
+A really simple project that serves as a boiler plate for developers building front end websites with Jekyll. Most of the conventions in this boilerplate originate from regular jekyll based terminologies in terms of folder names. However, few simple modifications have been done in order to standardize website building with jekyll in an opiniated but simple manner. <b>Watch the video presentation on [YouTube](https://www.youtube.com/watch?v=TLJuhdXiMXg)</b>.
 
 ### Built Using
 + [Jekyll - The Static Site Generator](https://jekyllrb.com/)
