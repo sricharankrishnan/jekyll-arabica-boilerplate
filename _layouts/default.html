@@ -53,21 +53,22 @@ layout: compress
     
     <!-- [js file timestamp] -->
     <script type="text/javascript">
-      var serveFileVer = "?serveFileVer=23022022_1747";
+      var serveFileVer = "?serveFileVer=20032022_1722";
     </script>
-    {% assign serveFileVer = "23022022_1747" %}
+    {% assign serveFileVer = "20032022_1722" %}
     <!-- [js file timestamp] -->
 
     <!-- [javascript files] -->
     {% assign mode = "development" %}
     {% if mode == "development" and page.jsfile != "" %}
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/vendor-components/jquery/jquery-3.3.1.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/vendor-components/jquery/jquery.cookie.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
       <script src="/assets/js/vendor-components/bootstrap/bootstrap.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
       <script src="/assets/js/common.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
       <script src="/assets/js/{{ page.jsfile }}.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
     {% endif %}
     {% if mode == "production" and page.jsfile != "" %}
-      <script src="/assets/js/{{ page.jsfile}}.min.js?q={{ serveFileVer }}" type="text/javascript"></script>
+      <script src="/assets/js/{{ page.jsfile}}.min.js?serveFileVer={{ serveFileVer }}" type="text/javascript"></script>
     {% endif %}
     <!-- [javascript files] -->
   </body>
