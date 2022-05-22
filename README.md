@@ -1,4 +1,7 @@
 # Jekyll Arabica Boilerplate
+![YouTube Likes](https://img.shields.io/youtube/likes/TLJuhdXiMXg?style=social)
+![YouTube Views](https://img.shields.io/youtube/views/TLJuhdXiMXg?style=social)
+<br/><br/>
 ![Landing Page Shot](https://github.com/sricharankrishnan/jekyll-arabica-boilerplate/blob/master/assets/images/landing-page-shot.gif?raw=true)
 
 ### About
